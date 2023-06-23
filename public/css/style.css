@@ -1,0 +1,71 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-image: url("/images/bg3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header
+{
+    position: relative;
+    left: 35%;
+   
+    font-size: 80px;
+}
+.container
+{
+     display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 30vh;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+   
+    font-size: 40px;
+}
+.container input
+{
+    width: 30vh;
+    height: 3vh;
+    border-radius: 20px;
+}
+.container button
+{
+    width: 10vh;
+    height: 3.5vh;
+    border-radius: 10px;
+}
+
+
+/* page styling */
+
+.container-pg
+{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    color: antiquewhite;
+}
+.c-img
+{
+    position: relative;
+    left: 25%;
+}
+.c-descr h2
+{
+    font-size: 2rem;
+    margin: 15px;
+}
+.c-descr p
+{
+    font-size: 1.5rem;
+    margin: 10px;
+}
